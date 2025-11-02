@@ -1,27 +1,39 @@
-// src/App.js
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import About from './components/About';
+import MoreAbout from './components/MoreAbout';
 import Services from './components/Services';
-import RecentWork from './components/RecentWork';
 import Skills from './components/Skills';
+import RecentWork from './components/RecentWork';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Services />
-      <RecentWork />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Hero />
+                <About />
+                <Services />
+                <Skills />
+                <RecentWork />
+                <Contact />
+              </>
+            } />
+            <Route path="/MoreAbout" element={<MoreAbout />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

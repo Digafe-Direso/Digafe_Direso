@@ -94,7 +94,41 @@ body {
   margin-top: 50px;
   text-align: center;
 }
+/* see more */
+.aboutMore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.AboutMe{
+    width: 55%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
+.AboutMEimg{
+    width: 40%;
+}
+.AboutMEimg img{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
 
+}
+.DigafeMe{
+    padding-top: 2%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media (min-width:768px) {
+   .AboutMEimg img{
+    height: 60%;
+   }
+   .AboutMEimg{
+margin-right:8px;
+} 
+}
 .digafe {
   color: transparent;
   -webkit-text-stroke: .2px hsl(0, 0%, 100%);
@@ -155,8 +189,8 @@ body {
 
   .home-img img {
     border-radius: 300px;
-    width: 32vw;
-    height: 32vw;
+    width: 30vw;
+    height: 30vw;
     border: solid;
     border-color: rgb(3, 89, 60);
   }
@@ -179,7 +213,7 @@ body {
     border: solid;
     border-width: 5px;
     border-radius: 30px;
-    border-color: rgb(11, 96, 96);
+    border-color: rgb(14, 45, 45);
     background-color: rgb(1, 15, 15);
     width: 24%;
   }

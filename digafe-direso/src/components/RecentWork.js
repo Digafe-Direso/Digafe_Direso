@@ -12,7 +12,6 @@ const RecentWork = () => {
     '/assets/certificates/Digafe-M.png',
     '/assets/certificates/Digafep.png'
   ];
-
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % certificates.length);

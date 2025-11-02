@@ -1,7 +1,9 @@
 // src/components/About.js
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const About = () => {
+  
+
   return (
     <section id="about">
       <div className="container">
@@ -64,7 +66,9 @@ const About = () => {
               I'm Digafe Direso, a Computer Science student driven by curiosity and creativity. I love exploring algorithms, security, and systems, but my real goal is to build tools that help people and bring positive change.
             </p>
             <div className="see-more">
-              <a href="/about-more">See More</a>
+          <Link to="/MoreAbout" className="see-more-btn">
+          See More About Me →
+        </Link>
             </div>
           </div>
         </div>
@@ -73,4 +77,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About ;
