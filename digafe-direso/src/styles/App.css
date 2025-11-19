@@ -95,35 +95,45 @@ body {
   text-align: center;
 }
 /* see more */
-.aboutMore{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
-}
+
 .AboutMe{
-    width: 55%;
+    width: 95%;
     font-size: 1.2em;
-    line-height: 1.6;
     color: #fff;
+  margin-left:18px;
+}
+.backtoHome{
+  text-align: end;
 }
 .AboutMEimg{
-    width: 40%;
+    width: 100%;
+    margin-top: 18px;
 }
 .AboutMEimg img{
+  margin:auto;
     width:100%;
     height: auto;
     border-radius: 10px;
-
 }
 .DigafeMe{
     padding-top: 2%;
     text-align: center;
     margin-bottom: 20px;
 }
+.AboutMEimg img{
+    height: 50%;
+   }
 @media (min-width:768px) {
+  .aboutMore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.backtoHome{
+  margin-top:28px;
+}
    .AboutMEimg img{
-    height: 60%;
+    height: 70%;
    }
    .AboutMEimg{
 margin-right:8px;
@@ -133,7 +143,6 @@ margin-right:8px;
   color: transparent;
   -webkit-text-stroke: .2px hsl(0, 0%, 100%);
 }
-
 .digafe h1 {
   font-size: 78px;
   font-weight: bold;
@@ -159,7 +168,6 @@ margin-right:8px;
   background-color: black;
   font-family: monospace;
 }
-
 .digafeh .h1:hover {
   border-style: solid;
   border-color: rgb(225, 225, 235);
@@ -339,7 +347,6 @@ margin-right:8px;
 .recentimg2 img {
   width: 100%;
 }
-
 .recentimg1 {
   width: 100%;
   height: 20%;
@@ -481,7 +488,6 @@ margin-right:8px;
   background-color: black;
   color: white;
 }
-
 .submitform:hover {
   color: rgb(227, 227, 228);
 }
