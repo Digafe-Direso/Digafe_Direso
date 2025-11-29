@@ -9,7 +9,6 @@ import MoreAbout from './components/MoreAbout';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import RecentWork from './components/RecentWork';
-import Contact from './components/Contact';
 import ContactForm from './components/ContactForm';
 import './styles/App.css';
 
@@ -27,7 +26,6 @@ function App() {
                 <Services />
                 <Skills />
                 <RecentWork />
-                <Contact />
                 <ContactForm/>
               </>
             } />

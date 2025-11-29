@@ -18,7 +18,6 @@ function ContactForm() {
             setStatus({ type: '', message: '' });
         }
     };
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
@@ -73,7 +72,7 @@ function ContactForm() {
     };
 
     return (
-        <section style={{ padding: '40px', backgroundColor: '#000', color: '#fff' }}>
+        <section id="contact" style={{ padding: '40px', backgroundColor: '#000', color: '#fff' }}>
             <p>E-mail: digafe871@gmail.com</p>
             <p>CALL: +251777965669</p>
             

@@ -189,6 +189,19 @@ margin-right:8px;
     border-color: rgb(29, 98, 98);
   }
 }
+@media (min-width: 768px) and (max-width:920px){
+  .digafeh {
+    margin-top: 50px;
+    font-size: 9px;
+    font-family: monospace;
+    border: solid;
+    border-width: 5px;
+    border-radius: 30px;
+    border-color: rgb(14, 45, 45);
+    background-color: rgb(1, 15, 15);
+    width: 24%;
+  }
+}
 
 @media (min-width: 768px) {
   .biography {
