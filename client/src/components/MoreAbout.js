@@ -16,7 +16,7 @@ const MoreAbout = () => {
         <div className="AboutMEimg">
             <img src="assets/images/Digafe1.png" alt="Digafe Direso"></img>
             <div className="back-nav BackH backtoHome">
-          <Link to="/" className="back-btn backtoHome">← Back to Home</Link>
+          <Link to="/" className="back-btn backtoHome">←go to Home</Link>
         </div>
         </div>
     </div>
